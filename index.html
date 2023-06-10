@@ -392,7 +392,23 @@
                 </div>
               </div>
             </div>
-            <div class="right-content"></div>
+            <div class="right-content">
+              <form action="/contact" method="POST" class="contact-form">
+                <div class="form__group field">
+                  <input type="input" class="form__field" placeholder="Name" required>
+                  <label for="name" class="form__label">Name</label>
+                </div>
+                <div class="form__group field">
+                  <input type="email" class="form__field" placeholder="Email" required>
+                  <label for="email" class="form__label">Email</label>
+                </div>
+                <!-- <div class="form-group">
+                  <textarea class="form-input" name="message" id="message" cols="15" rows="8" placeholder="Email" required>
+                  <label for="message" class="form-label">Email</label>
+                </div> -->
+                <button class="form-btn">Submit <i class="fa-solid fa-arrow-right-long"></i></button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
